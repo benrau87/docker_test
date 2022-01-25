@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   alpine:
-    image: alpine
+    image: ubuntu
     logging:
       driver: "gelf"
       options:
