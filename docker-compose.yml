@@ -2,7 +2,7 @@ version: '3.3'
 
 services:
   alpine:
-    image: dockerhub/alpine
+    image: alpine
     logging:
       driver: "gelf"
       options:
