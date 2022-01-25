@@ -1,13 +1,13 @@
 version: '3.3'
 
 services:
-  ubuntu:
-    image: ubuntu
+  network-multitool:
+    image: praqma/network-multitool
     logging:
       driver: "gelf"
       options:
         gelf-address: "udp://10.66.6.18:12201"
-        tag: "alpine"
+        tag: "network-multitool"
     deploy:
       restart_policy:
         condition: on-failure
