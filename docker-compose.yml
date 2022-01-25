@@ -20,4 +20,3 @@ services:
       - docker-network
 networks:
   docker-network:
-    external: true
